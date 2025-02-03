@@ -43,7 +43,7 @@ readTime: 5 min read
 ```json
 {
 	"datetime": {
-		"_lte": "$NOW"
+		"_lte": "$NOW()"
 	}
 }
 ```
